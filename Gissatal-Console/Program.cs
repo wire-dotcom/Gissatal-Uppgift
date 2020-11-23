@@ -15,8 +15,8 @@ namespace Gissatal_Console
             rndtal = rndint.Next(0, 100); // Här sätts värdet på variablen till ett slumpmässigt tal mellan 0 och 100.
             int antalGuess = 0;            
             Console.WriteLine("Jag har valt ett tal, gissa vilket");
-
-            while (true)
+            
+            while (true) // Den här biten av spelet är i en while (true) loop så att vi kan upprepa den eller avsluta den när vi vill.
             {
                 string strGuess = Console.ReadLine();
                 int intGuess = Convert.ToInt32(strGuess);
