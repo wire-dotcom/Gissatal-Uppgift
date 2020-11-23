@@ -12,7 +12,7 @@ namespace Gissatal_Console
         {
             Random rndint = new Random(); // Våran slumpmäsiga int variabel.
             int rndtal = 0; // Definerar en int variabel som alltså kommer att vara talet som spelaren försöker gissa.
-            rndtal = rndint.Next(0, 100); // Här sätts värdet på variablen till ett slumpmässigt tal mellan 0 och 100.
+            rndtal = rndint.Next(1, 100); // Här sätts värdet på variablen till ett slumpmässigt tal mellan 0 och 100.
             int antalGuess = 0;            
             Console.WriteLine("Jag har valt ett tal, gissa vilket");
             
