@@ -16,9 +16,8 @@ namespace Gissatal_Console
             Console.WriteLine("Jag har valt ett tal, gissa vilket");
             
             while (true) // Den här biten av spelet är i en while (true) loop så att vi kan upprepa den eller avsluta den när vi vill.
-            {
-                string strGuess = Console.ReadLine();
-                int intGuess = Convert.ToInt32(strGuess);
+            {                
+                int intGuess = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
                 antalGuess++;
                 if (intGuess == rndtal)
